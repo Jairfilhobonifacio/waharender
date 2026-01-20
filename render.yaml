@@ -10,9 +10,15 @@ services:
       - key: WHATSAPP_API_PORT
         value: 3000
       - key: WAHA_DASHBOARD_USERNAME
-        value: admin_render
+        value: admin
       - key: WAHA_DASHBOARD_PASSWORD
-        value: change_me_now
+        value: admin
+      - key: WHATSAPP_SWAGGER_USERNAME
+        value: admin
+      - key: WHATSAPP_SWAGGER_PASSWORD
+        value: admin
+      - key: WAHA_PRINT_QR
+        value: "True"
       - key: WAHA_LOG_FORMAT
         value: PRETTY
       - key: WAHA_LOG_LEVEL
