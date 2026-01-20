@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: waha-core
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
+    healthCheckPath: /swagger
+    envVars:
+      - key: WHATSAPP_API_PORT
+        value: 3000
