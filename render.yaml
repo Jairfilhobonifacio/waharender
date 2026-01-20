@@ -9,6 +9,10 @@ services:
     envVars:
       - key: WHATSAPP_API_PORT
         value: 3000
+      - key: WHATSAPP_API_HOSTNAME
+        value: 0.0.0.0
+      - key: PORT
+        value: 3000
       - key: WAHA_API_KEY
         value: ""
       - key: WAHA_NO_API_KEY
