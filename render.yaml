@@ -9,6 +9,10 @@ services:
     envVars:
       - key: WHATSAPP_API_PORT
         value: 3000
+      - key: WAHA_API_KEY
+        value: ""
+      - key: WAHA_NO_API_KEY
+        value: "True"
       - key: WAHA_DASHBOARD_NO_PASSWORD
         value: "True"
       - key: WHATSAPP_SWAGGER_NO_PASSWORD
