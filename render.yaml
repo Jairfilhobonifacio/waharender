@@ -9,3 +9,11 @@ services:
     envVars:
       - key: WHATSAPP_API_PORT
         value: 3000
+      - key: WAHA_DASHBOARD_USERNAME
+        value: admin_render
+      - key: WAHA_DASHBOARD_PASSWORD
+        value: change_me_now
+      - key: WAHA_LOG_FORMAT
+        value: PRETTY
+      - key: WAHA_LOG_LEVEL
+        value: info
